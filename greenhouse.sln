@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "greenhouse", "greenhouse.vcxproj", "{E60DDE87-ED95-497C-B681-E6DC1C5A3B3D}"
 EndProject
@@ -13,8 +13,8 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E60DDE87-ED95-497C-B681-E6DC1C5A3B3D}.Debug|x64.ActiveCfg = Debug|x64
-		{E60DDE87-ED95-497C-B681-E6DC1C5A3B3D}.Debug|x64.Build.0 = Debug|x64
+		{E60DDE87-ED95-497C-B681-E6DC1C5A3B3D}.Debug|x64.ActiveCfg = Release|x64
+		{E60DDE87-ED95-497C-B681-E6DC1C5A3B3D}.Debug|x64.Build.0 = Release|x64
 		{E60DDE87-ED95-497C-B681-E6DC1C5A3B3D}.Debug|x86.ActiveCfg = Debug|Win32
 		{E60DDE87-ED95-497C-B681-E6DC1C5A3B3D}.Debug|x86.Build.0 = Debug|Win32
 		{E60DDE87-ED95-497C-B681-E6DC1C5A3B3D}.Release|x64.ActiveCfg = Release|x64
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3118E0B4-7EB4-4BB8-B3A7-985B76F5778E}
 	EndGlobalSection
 EndGlobal
